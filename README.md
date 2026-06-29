@@ -165,11 +165,6 @@ Comparison
 
 Conclusion
 
-
-## Results
-
-The repository includes:
-
 ## Results
 
 The repository includes:
@@ -181,19 +176,20 @@ The repository includes:
 </p>
 
 - Qualitative Predictions
+<p align="center">
+  <img src="results/qualitative_predictions_grid.jpg" width="900"/>
+</p>
 
 <p align="center">
-  <img src="qualitative_prediction.png" width="900"/>
+  <b>Figure.</b> Qualitative comparison of YOLOv8, YOLOv26, and RT-DETR on representative PPE test images.
 </p>
 
 - Failure Case Visualization
-
 <p align="center">
   <img src="Failure Case.png" width="900"/>
 </p>
 
 - Computational Analysis
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/80379bd6-4327-4466-9fee-18b91d444901"
        width="700"/>
