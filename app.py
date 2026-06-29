@@ -18,8 +18,8 @@ from streamlit_drawable_canvas import st_canvas
 # ==========================================
 # 1. CẤU HÌNH CẢNH BÁO (TELEGRAM & MQTT)
 # ==========================================
-TELEGRAM_BOT_TOKEN = "8647799730:AAGMmqICGgMevG35anz3RX5_Oc_qbwOYztw"
-TELEGRAM_CHAT_ID = "6980076099"
+TELEGRAM_BOT_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
 
 def send_telegram_msg(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
@@ -27,10 +27,10 @@ def send_telegram_msg(message):
     try: requests.post(url, json=payload, timeout=3)
     except: pass
 
-MQTT_BROKER = "41956acf49384e82a7b6c72475b7780b.s1.eu.hivemq.cloud" 
+MQTT_BROKER = "" 
 MQTT_PORT = 8883
-MQTT_USER = "linhvipmvp"
-MQTT_PASS = "123456@Long"
+MQTT_USER = ""
+MQTT_PASS = ""
 MQTT_TOPIC = "warning/device/1"
 
 def send_mqtt_msg(message):

@@ -8,13 +8,12 @@
 
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-# 🦺 PPE Detection Comparative Analysis
+# PPE Detection Comparative Analysis
 
 > Comparative Performance Analysis of CNN-based and Transformer-based Architectures for Real-Time PPE Detection in IoT Systems.
 
----
 
-## 📌 Overview
+## Overview
 
 This project presents a comprehensive comparative study of modern object detection architectures for Personal Protective Equipment (PPE) detection.
 
@@ -23,14 +22,13 @@ Instead of focusing on a single model, this work evaluates multiple state-of-the
 The comparison includes:
 
 * YOLOv8
-* YOLO11
+* YOLO26
 * RT-DETR
 
 The study evaluates detection accuracy, computational efficiency, inference speed, qualitative performance, and deployment suitability.
 
----
 
-## ✨ Key Features
+## Key Features
 
 * Comparative analysis of multiple object detection architectures
 * Benchmarking under identical datasets
@@ -41,9 +39,8 @@ The study evaluates detection accuracy, computational efficiency, inference spee
 * COCO dataset validation utilities
 * Ready for real-time IoT deployment experiments
 
----
 
-## 🏗 Project Architecture
+## Project Architecture
 
 ```mermaid
 flowchart TD
@@ -77,9 +74,8 @@ Evaluation --> ErrorAnalysis
 Evaluation --> Deployment
 ```
 
----
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -94,42 +90,38 @@ Evaluation --> Deployment
 └── README.md
 ```
 
----
 
-## 📊 Models Evaluated
+## Models Evaluated
 
 | Model   | Architecture      |
 | ------- | ----------------- |
 | YOLOv8  | CNN-based         |
-| YOLO11  | CNN-based         |
+| YOLO26  | CNN-based         |
 | RT-DETR | Transformer-based |
 
----
 
-## 📈 Evaluation Criteria
+## Evaluation Criteria
 
-* mAP
-* Precision
-* Recall
-* F1-score
-* IoU
-* Computational Cost
-* Inference Speed
-* Model Size
-* Qualitative Prediction
-* Failure Case Analysis
+- mAP
+- Precision
+- Recall
+- F1-score
+- IoU
+- Computational Cost
+- Inference Speed
+- Model Size
+- Qualitative Prediction
+- Failure Case Analysis
 
----
 
-## 📁 Dataset
+## Dataset
 
 The dataset is **not included** in this repository because of its large size.
 
-Please download the PPE dataset in roboflow separately and organize it according to the required directory structure before training.
+Please download the PPE dataset in roboflow (https://universe.roboflow.com/ppe-ihvqu/ppe-8k2vo/dataset/3#) separately and organize it according to the required directory structure before training.
 
----
 
-## 🚀 Running Experiments
+## Running Experiments
 
 ```bash
 pip install -r requirements.txt
@@ -137,9 +129,9 @@ pip install -r requirements.txt
 
 Run training notebooks:
 
-* YOLOv8_PPE_Final_Training_Notebook.ipynb
-* YOLO26_PPE_Final_Training_Notebook.ipynb
-* RTDETR_PPE_Final_Training_Notebook.ipynb
+- YOLOv8_PPE_Final_Training_Notebook.ipynb
+- YOLO26_PPE_Final_Training_Notebook.ipynb
+- RTDETR_PPE_Final_Training_Notebook.ipynb
 
 Workflow:
 
@@ -173,43 +165,47 @@ Comparison
 
 Conclusion
 
----
-
-## 📸 Results
+## Results
 
 The repository includes:
 
-* Benchmark comparison
-* Qualitative predictions
-* Failure case visualization
-* Computational analysis
+- Benchmark comparison
 
----
+<p align="center">
+  <img src="image.png" width="900"/>
+</p>
 
-## ❌ Failure case image
+- Qualitative Predictions
+<p align="center">
+  <img src="results/qualitative_predictions_grid.jpg" width="900"/>
+</p>
 
-![alt text](<Failure Case.png>)
+<p align="center">
+  <b>Figure.</b> Qualitative comparison of YOLOv8, YOLOv26, and RT-DETR on representative PPE test images.
+</p>
 
----
+- Failure Case Visualization
+<p align="center">
+  <img src="Failure Case.png" width="900"/>
+</p>
 
-## Result Table
+- Computational Analysis
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/80379bd6-4327-4466-9fee-18b91d444901"
+       width="700"/>
+</p>
 
-![alt text](image.png)
+## Future Improvements
 
----
+- D-FINE comparison
+- Grounding DINO
+- OWLv2
+- Edge deployment benchmarking
+- TensorRT optimization
+- ONNX inference
 
-## 🎯 Future Improvements
 
-* YOLO12 or D-FINE comparison
-* Grounding DINO
-* OWLv2
-* Edge deployment benchmarking
-* TensorRT optimization
-* ONNX inference
-
----
-
-## 👨‍💻 Author
+## Author
 
 - Pham Tan Minh 
 - Doan Duy Long
