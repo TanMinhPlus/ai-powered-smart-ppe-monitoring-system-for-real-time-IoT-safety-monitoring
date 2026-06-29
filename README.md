@@ -23,7 +23,7 @@ Instead of focusing on a single model, this work evaluates multiple state-of-the
 The comparison includes:
 
 * YOLOv8
-* YOLO11
+* YOLO26
 * RT-DETR
 
 The study evaluates detection accuracy, computational efficiency, inference speed, qualitative performance, and deployment suitability.
@@ -101,7 +101,7 @@ Evaluation --> Deployment
 | Model   | Architecture      |
 | ------- | ----------------- |
 | YOLOv8  | CNN-based         |
-| YOLO11  | CNN-based         |
+| YOLO26  | CNN-based         |
 | RT-DETR | Transformer-based |
 
 ---
@@ -200,7 +200,7 @@ The repository includes:
 
 ## 🎯 Future Improvements
 
-* YOLO12 or D-FINE comparison
+* D-FINE comparison
 * Grounding DINO
 * OWLv2
 * Edge deployment benchmarking
