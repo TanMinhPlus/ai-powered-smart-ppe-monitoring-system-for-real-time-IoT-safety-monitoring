@@ -12,7 +12,6 @@
 
 > Comparative Performance Analysis of CNN-based and Transformer-based Architectures for Real-Time PPE Detection in IoT Systems.
 
----
 
 ## Overview
 
@@ -28,7 +27,6 @@ The comparison includes:
 
 The study evaluates detection accuracy, computational efficiency, inference speed, qualitative performance, and deployment suitability.
 
----
 
 ## Key Features
 
@@ -41,7 +39,6 @@ The study evaluates detection accuracy, computational efficiency, inference spee
 * COCO dataset validation utilities
 * Ready for real-time IoT deployment experiments
 
----
 
 ## Project Architecture
 
@@ -77,7 +74,6 @@ Evaluation --> ErrorAnalysis
 Evaluation --> Deployment
 ```
 
----
 
 ## Repository Structure
 
@@ -94,7 +90,6 @@ Evaluation --> Deployment
 └── README.md
 ```
 
----
 
 ## 📊 Models Evaluated
 
@@ -104,7 +99,6 @@ Evaluation --> Deployment
 | YOLO26  | CNN-based         |
 | RT-DETR | Transformer-based |
 
----
 
 ## Evaluation Criteria
 
@@ -119,7 +113,6 @@ Evaluation --> Deployment
 - Qualitative Prediction
 - Failure Case Analysis
 
----
 
 ## Dataset
 
@@ -127,7 +120,6 @@ The dataset is **not included** in this repository because of its large size.
 
 Please download the PPE dataset in roboflow separately and organize it according to the required directory structure before training.
 
----
 
 ## Running Experiments
 
@@ -173,7 +165,6 @@ Comparison
 
 Conclusion
 
----
 
 ## 📸 Results
 
@@ -186,7 +177,6 @@ The repository includes:
 ![alt text](<Failure Case.png>)
 - Computational analysis
 
----
 
 ## Future Improvements
 
@@ -197,7 +187,6 @@ The repository includes:
 - TensorRT optimization
 - ONNX inference
 
----
 
 ## Author
 
