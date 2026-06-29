@@ -118,7 +118,7 @@ Evaluation --> Deployment
 
 The dataset is **not included** in this repository because of its large size.
 
-Please download the PPE dataset in roboflow separately and organize it according to the required directory structure before training.
+Please download the PPE dataset in roboflow (https://universe.roboflow.com/ppe-ihvqu/ppe-8k2vo/dataset/3#) separately and organize it according to the required directory structure before training.
 
 
 ## Running Experiments
@@ -173,9 +173,12 @@ The repository includes:
 - Benchmark comparison
 ![alt text](image.png)
 - Qualitative predictions
+
 - Failure case visualization
 ![alt text](<Failure Case.png>)
 - Computational analysis
+<img width="615" height="493" alt="image" src="https://github.com/user-attachments/assets/80379bd6-4327-4466-9fee-18b91d444901" />
+
 
 
 ## Future Improvements
