@@ -8,13 +8,13 @@
 
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-# 🦺 PPE Detection Comparative Analysis
+# PPE Detection Comparative Analysis
 
 > Comparative Performance Analysis of CNN-based and Transformer-based Architectures for Real-Time PPE Detection in IoT Systems.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project presents a comprehensive comparative study of modern object detection architectures for Personal Protective Equipment (PPE) detection.
 
@@ -30,7 +30,7 @@ The study evaluates detection accuracy, computational efficiency, inference spee
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 * Comparative analysis of multiple object detection architectures
 * Benchmarking under identical datasets
@@ -43,7 +43,7 @@ The study evaluates detection accuracy, computational efficiency, inference spee
 
 ---
 
-## 🏗 Project Architecture
+## Project Architecture
 
 ```mermaid
 flowchart TD
@@ -79,7 +79,7 @@ Evaluation --> Deployment
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -106,22 +106,22 @@ Evaluation --> Deployment
 
 ---
 
-## 📈 Evaluation Criteria
+## Evaluation Criteria
 
-* mAP
-* Precision
-* Recall
-* F1-score
-* IoU
-* Computational Cost
-* Inference Speed
-* Model Size
-* Qualitative Prediction
-* Failure Case Analysis
+- mAP
+- Precision
+- Recall
+- F1-score
+- IoU
+- Computational Cost
+- Inference Speed
+- Model Size
+- Qualitative Prediction
+- Failure Case Analysis
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The dataset is **not included** in this repository because of its large size.
 
@@ -129,7 +129,7 @@ Please download the PPE dataset in roboflow separately and organize it according
 
 ---
 
-## 🚀 Running Experiments
+## Running Experiments
 
 ```bash
 pip install -r requirements.txt
@@ -137,9 +137,9 @@ pip install -r requirements.txt
 
 Run training notebooks:
 
-* YOLOv8_PPE_Final_Training_Notebook.ipynb
-* YOLO26_PPE_Final_Training_Notebook.ipynb
-* RTDETR_PPE_Final_Training_Notebook.ipynb
+- YOLOv8_PPE_Final_Training_Notebook.ipynb
+- YOLO26_PPE_Final_Training_Notebook.ipynb
+- RTDETR_PPE_Final_Training_Notebook.ipynb
 
 Workflow:
 
@@ -179,37 +179,27 @@ Conclusion
 
 The repository includes:
 
-* Benchmark comparison
-* Qualitative predictions
-* Failure case visualization
-* Computational analysis
-
----
-
-## ❌ Failure case image
-
-![alt text](<Failure Case.png>)
-
----
-
-## Result Table
-
+- Benchmark comparison
 ![alt text](image.png)
+- Qualitative predictions
+- Failure case visualization
+![alt text](<Failure Case.png>)
+- Computational analysis
 
 ---
 
-## 🎯 Future Improvements
+## Future Improvements
 
-* D-FINE comparison
-* Grounding DINO
-* OWLv2
-* Edge deployment benchmarking
-* TensorRT optimization
-* ONNX inference
+- D-FINE comparison
+- Grounding DINO
+- OWLv2
+- Edge deployment benchmarking
+- TensorRT optimization
+- ONNX inference
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 - Pham Tan Minh 
 - Doan Duy Long
